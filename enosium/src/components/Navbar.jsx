@@ -10,17 +10,16 @@ const Navbar = () => {
       <div className=" mx-auto flex justify-between items-center py-7 px-5">
         {/* Site logo and Name */}
         <a href="#link" className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0">
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-white p-2 bg-gradient-to-br from-pink-500 to-yellow-500 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-          </svg>
-          <span className="ml-3 text-xl text-gray-100 font-semibold antialiased">Navbar </span>
+          <img src='https://enosium23.netlify.app/assets/img/logo/logo.png'></img>
         </a>
         {/* Navbar */}
         <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
-          <a href="#link" className="mr-8 hover:text-gray-300">Solutions</a>
-          <a href="#link" className="mr-8 hover:text-gray-300">Prices</a>
+          <a href="#link" className="mr-8 hover:text-gray-300">Home</a>
           <a href="#link" className="mr-8 hover:text-gray-300">About</a>
-          <a href="#link" className="mr-8 hover:text-gray-300">Contact</a>
+          <a href="#link" className="mr-8 hover:text-gray-300">Sponsors</a>
+          <a href="#link" className="mr-8 hover:text-gray-300">Schedule</a>
+          <a href="#link" className="mr-8 hover:text-gray-300">Prize</a>
+          <a href="#link" className="mr-8 hover:text-gray-300">FAQs</a>
         </nav>
         {/* Burger icon standard */}
         <button 
@@ -36,10 +35,12 @@ const Navbar = () => {
       {/* :MOBILE MENU */}
       { isOpen &&
         <div className="w-full flex flex-col py-4 px-3 md:hidden bg-gray-900 text-base uppercase text-center font-semibold">
-          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Solutions</a>
-          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Prices</a>
+          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Home</a>
           <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">About</a>
-          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
+          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Sponsors</a>
+          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Schedule</a>
+          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Prize</a>
+          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">FAQs</a>
         </div>
       }
       
