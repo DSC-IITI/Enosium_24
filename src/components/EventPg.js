@@ -12,9 +12,7 @@ const EventPg = () => {
                                 <div class="col-md-6 col-sm-12 d-md-flex align-items-center wow fadeInUp"
                                     data-wow-delay=".4s">
                                     <div class="single-ep">
-                                        <div class="icon-box">
-                                            <i class="far fa-microphone-alt"></i>
-                                        </div>
+                                        
                                         <div class="cont-box">
                                             <h4 style={{color:'#FC414D'}}>Learn from others</h4>
                                             <p class="margin-top-20">Not only do you get to learn while making your own
@@ -27,9 +25,7 @@ const EventPg = () => {
                                 </div>
                                 <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                                     <div class="single-ep">
-                                        <div class="icon-box">
-                                            <i class="far fa-share-alt"></i>
-                                        </div>
+                                       
                                         <div class="cont-box">
                                             <h4 style={{color:'#FC414D'}}>Build Your Network</h4>
                                             <p class="margin-top-20 ">You'll get exposure to some of the best minds in the
@@ -41,9 +37,7 @@ const EventPg = () => {
                                         </div>
                                     </div>
                                     <div class="single-ep">
-                                        <div class="icon-box">
-                                            <i class="far fa-users"></i>
-                                        </div>
+                                        
                                         <div class="cont-box">
                                             <h4 style={{color:'#FC414D'}}>Satisfy the coder within</h4>
                                             <p class="margin-top-20">That feeling of pleasure you get when you fix a bug
