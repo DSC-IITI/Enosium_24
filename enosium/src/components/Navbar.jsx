@@ -4,17 +4,17 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="w-full bg-gray-800 text-gray-100 body-font mb-4 shadow-sm">
+    <header className="w-full bg-blue-900 text-gray-100 body-font mb-4 shadow-sm">
 
       {/* :DESKTOP MENU */}
-      <div className=" mx-auto flex justify-between items-center py-7 px-5">
+      <div className=" mx-auto flex justify-between items-center py-4 px-5">
         {/* Site logo and Name */}
         <a href="#link" className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0">
           <img src='https://enosium23.netlify.app/assets/img/logo/logo.png'></img>
         </a>
         {/* Navbar */}
         <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
-          <a href="#link" className="mr-8 hover:text-gray-300">Home</a>
+          <a href="#link" className="mr-8 hover:text-violet-300">Home</a>
           <a href="#link" className="mr-8 hover:text-gray-300">About</a>
           <a href="#link" className="mr-8 hover:text-gray-300">Sponsors</a>
           <a href="#link" className="mr-8 hover:text-gray-300">Schedule</a>

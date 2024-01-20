@@ -3,7 +3,7 @@ import React from 'react';
 const Card = () => {
   return (
     <section>
-  <div class="space-y-8 px-5 lg:divide-y lg:divide-gray-100">
+  <div class="space-y-8 px-5 py-4 lg:divide-y lg:divide-gray-100">
 
     <div class="pt-8  sm:flex lg:items-end group">
       <div class="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
