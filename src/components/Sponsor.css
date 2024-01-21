@@ -57,3 +57,19 @@
     color:#fff;
     font-weight:bolder;
 }
+
+.isimage {
+  width:300px;
+  height:200px;
+  border-radius: 7%; 
+  margin: 0 auto;
+}
+
+.isdivide {
+  height:200px;
+  margin-bottom: 20px;
+}
+
+.is {
+  margin-top: 100px;
+}
